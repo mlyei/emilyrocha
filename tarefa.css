@@ -1,0 +1,61 @@
+#divredm {
+
+    display: inline-block;
+
+    width: 200px;
+
+    height: 200px;
+
+    border: 1px solid black;
+
+    background-color: red;
+
+}
+
+#divred {
+
+    display: inline-block;
+
+    width: 200px;
+
+    height: 200px;
+
+    background-color: red;
+
+}
+
+#divblue {
+
+    display: inline-block;
+
+    width: 200px;
+
+    height: 200px;
+
+    background-color: blue;
+
+}
+
+#divgreen {
+
+    display: inline-block;
+
+    width: 200px;
+
+    height: 200px;
+
+    background-color: green;
+
+}
+
+#divyellow {
+
+    display: inline-block;
+
+    width: 200px;
+
+    height: 200px;
+
+    background-color: yellow;
+
+}
