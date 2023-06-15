@@ -1,0 +1,92 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+
+  .grid-item {
+    padding: 10px;
+    border-radius: 10px;
+    background-position: center;
+  }
+
+  .item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;    
+    background-image: url(https://i.pinimg.com/564x/ac/f5/4b/acf54b26732f4ddb9ab3cb3687d475ab.jpg);
+  }
+
+  .item-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(https://i.pinimg.com/564x/e2/80/d7/e280d72e814eb3f682923be621504b06.jpg);
+  }
+
+  .item-3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    background-image: url(https://i.pinimg.com/736x/2e/7e/85/2e7e85086aa7064513c028664ba2ad04.jpg);
+  }
+
+  .item-4 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(https://i.pinimg.com/564x/60/95/46/609546e617a3b300a1b576d51fc22454.jpg);
+  }
+
+  .item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background-image: url(https://i.pinimg.com/564x/53/0d/42/530d42c7ff07dcb44ac874fbe91579d5.jpg);
+  }
+
+  .item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: url(https://i.pinimg.com/236x/c5/9b/17/c59b17beb85d957c1a88b5b9cf42fdd6.jpg);
+  }
+
+  .item-7 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: url(https://i.pinimg.com/236x/f2/cc/a4/f2cca4a75de7cb74fd211721e9e22ed6.jpg);
+  }
+
+  .item-8 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-image: url(https://i.pinimg.com/236x/e0/bf/57/e0bf57a4ff81c24acd1aece17347efec.jpg);
+  }
+
+  .item-9 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background-image: url(https://i.pinimg.com/564x/07/bd/44/07bd4407f8e0e4fc402eba10d51a93ef.jpg);
+  }
+
+  .item-10 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 9;
+    background-image: url(https://i.pinimg.com/564x/27/4c/eb/274ceb9414df9cf139fdfba4504d7330.jpg);
+  }
