@@ -1,0 +1,161 @@
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: #f1f5f5;
+    padding: 10px;
+    align-items: center;
+    column-span: all;
+    z-index: 999;
+}
+
+.navbar-logo {
+    grid-column: 1;
+}
+    .navbar-logo img {
+        max-width: 10%;
+        max-height: auto;
+    }
+
+.navbar-menu {
+    grid-column: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-menu a {
+    font-family: koho;
+    color: #727272;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.grid-container-main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #f1f5f5;
+    height: 90vh;
+    margin-top: 1fr;
+    font-family: koho;      
+}
+
+.grid-item {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+    .item-1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3; 
+        margin-left: 150px;
+        font-size: x-large; 
+    }
+
+    .item-2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        margin-left: 150px;    
+        font-size: x-large;
+        }
+
+    .item-3 {
+        grid-column-start: 5;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        margin-left: 150px;
+        margin-right: 150px;  
+        background-image: url(https://i.pinimg.com/736x/7e/61/32/7e613259bd727a68d2ee61e952855d48.jpg);
+    }
+
+.grid-container-collab {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #727272;
+    height: 100vh;
+    font-family: koho;      
+}
+
+    .item-4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 10;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .item-5 {
+        grid-column-start: 5;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: xx-large;
+        color: #fff;
+        margin-right: 150px;
+    }
+
+    .item-6 {
+        grid-column-start: 5;
+        grid-column-end: 11;
+        grid-row-start: 2;
+        grid-row-end: 6;
+        margin-right: 150px;    
+    }
+
+.grid-container-end {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #f1f5f5;
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/13/59/melody-147705_1280.png) 90vh;
+    height: 90vh;
+    font-family: koho;
+}
+
+    .item-7 {
+        grid-column-start: 2;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: xx-large;
+    }
+
+    .item-8 {
+        grid-column-start: 4;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 7;
+    }
+
+.footer {
+    display: grid;
+    grid-template-columns: (auto, 1fr);
+    background-color: #727272;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: koho;
+}
+    .footer-social {
+        grid-column: 3;
+    }
+
+    p {
+        grid-column: 1;
+        justify-content: flex-end;
+    }    
+
+
+
+
+
+
