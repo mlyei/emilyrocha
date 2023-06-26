@@ -2,50 +2,55 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shotcut icon" href="img\musica_conecta.ico" type="musica_conecta">
-    <title>Musica Conecta</title>
+    <link rel="shortcut icon" href="img/musica_conecta.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=KoHo&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <title>Música Conecta</title>
 </head>
-<body>
-    <header> 
-    <h1>Musica Conecta</h1>
-    <a href="paginas\feat.html">feat</a>
-    </header>
-    <pre>Para se conectar com pessoas, explorar novas músicas, colaborar com playlists.
 
-Somos o Musica Conecta, nosso intuito é criar conexões através das sensações que só a música proporciona.</pre>        
-        
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5gZjfjj3o8bBOUy0aBRfXz?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        <figure>
-    <pre>Conheça Nossa playlist Colaborativa! Descubra novas músicas incríveis e adicione as suas favoritas!</pre>
-            <img src= "img\paginicial_playlist_collab.png"></figure>
-        </figure>
-    <pre>Quer fazer parte da nossa comunidade? Preencha o formulário e converse com a gente no Discord!
-            <br>
-Nosso endereço:</pre>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3657.941788885666!2d-46.639687!3d-23.534596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585c8d61e5f7%3A0xc37392c860230ea!2sPra%C3%A7a%20J%C3%BAlio%20Prestes%2C%2016%20-%20Campos%20El%C3%ADseos%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001218-020%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1679767836959!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p></p>
-        <form action="/pagina-processa-dados-do-form" method="post">
-            <div>
-                <label for="name">Nome:</label>
-                <input type="text" id="name" />
-            </div>
-            <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" />
-            </div>
-            <div>
-                <label for="msg">Mensagem:</label>
-                <textarea id="msg"></textarea>
-            </div>
-            <div class="button">
-                <button type="submit">Enviar sua mensagem</button>
-            </div>
-        </form>
-        <p></p>
-        <footer>
-            <p>Modulo 1 Descodificadas - Por Emily Rocha</p>
-        </footer>
+<body>
+<!-- Menu Navegação -->
+<header class="navbar">
+    <div class="navbar-logo">
+        <a href="index.html"><img src=img\Música_Conecta_transp.png></a>
+    </div>
+    <nav class="navbar-menu">
+        <a href="#paginainicial">Página Inicial</a>        
+        <a href="#collab">Collab</a>
+        <a href="#endereço">Endereço</a>
+    </nav>
+</header>
+
+<main>
+    <!-- Conteúdo Principal -->
+    <section class="grid-container-main" id="paginainicial">
+        <div class="grid-item item-1">
+            <p>Olá, somos o Música Conecta!</p></div>
+        <div class="grid-item item-2">
+            <p>Criamos conexões, exploramos o mundo da música e juntos, criamos playlists incríveis. <br> <br> Conecte-se para ouvir novos sons, montar uma banda ou encontrar a galera que curte o que você escuta. </p></div>
+        <div class="grid-item item-3"></div>
+    </section>
+    <!-- Collab -->
+    <section class="grid-container-collab" id="collab">
+        <div class="grid-item item-4"><img src= "img\paginicial_playlist_collab.png"></img></div>
+        <div class="grid-item item-5">
+            <p>Conheça Nossa playlist Colaborativa! Descubra novas músicas incríveis e adicione as suas favoritas!</p></div>
+        <div class="grid-item item-6">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5gZjfjj3o8bBOUy0aBRfXz?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+    </section>
+    <!-- Endereço -->
+    <section class="grid-container-end" id="endereço">
+        <div class="grid-item item-7"><p>Nosso Endereço:</p></div>
+        <div class="grid-item item-8"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3657.941788885666!2d-46.639687!3d-23.534596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585c8d61e5f7%3A0xc37392c860230ea!2sPra%C3%A7a%20J%C3%BAlio%20Prestes%2C%2016%20-%20Campos%20El%C3%ADseos%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001218-020%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1687384362641!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="grid-item item-9"></div>
+    </section>    
+</main>
+<!-- rodapé -->
+<footer class="footer">
+    <p>Descodificadas Modulo 1 - Por Emily Rocha</p>
+</footer>
 </body>
 </html>
